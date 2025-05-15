@@ -1,0 +1,89 @@
+html, body, div, dl, dt, dd, ul,  h1, h2, h3,  pre, form, label, fieldset, input, p, blockquote, th, td { margin:0; padding:0 }
+body {font-family: 'SVN-Optima';font-size: 16px; color: #2e3538; }
+table { border-collapse:collapse; border-spacing:0 }
+ul { padding: 0; margin: 0; }
+ul, li { list-style: none }
+button:focus , input:focus, textarea:focus { outline: none }
+span, a { display: inline-block }
+a {color: #363636; text-decoration: none}
+a:hover , a:focus{color: #c69c5b; outline: none; text-decoration: none; transition: all 0.4s ease; }
+.container{max-width: 1280px;width: 100%; padding: 0 15px}
+.row {margin: 0 -15px}
+.row > div {padding: 0 15px}
+body img{max-width: 100%;transition: all ease 0.5s;}
+input, select{transition: all ease 0.4s;}
+button{cursor: pointer;transition: 0.3s all ease;}
+iframe{display: block;max-width: 100%;width: 100%;}
+select:focus {outline: none}
+h1, h2, h3, h4, h5, h6 {line-height: 1.25;}
+.h3, h3 {font-size: inherit}
+.flex {display: flex;display: -webkit-flex;}
+.flex-center {display: flex;display: -webkit-flex;align-items: center;}
+.flex-center-center {display: flex;display: -webkit-flex;align-items: center;justify-content: center;}
+.flex-center-end {display: flex;display: -webkit-flex;align-items: center;justify-content: flex-end;}
+.flex-center-start {display: flex;display: -webkit-flex;align-items: center;justify-content: flex-start;}
+.flex-center-between {display: flex;display: -webkit-flex;align-items: center;justify-content: space-between;}
+.flex-end-end {display: flex; display: -webkit-flex; align-items: flex-end; justify-content: flex-end}
+.flex-between {display: flex; display: -webkit-flex; justify-content: space-between}
+.flex-end {display: flex; display: -webkit-flex; align-items: flex-end}
+.inflex-center-center {display: inline-flex;display: -webkit-inline-flex;align-items: center;justify-content: center;}
+.absolute {position: absolute;left: 0;top:0;z-index: 2;height: 100%;width: 100%}
+.relative {position: relative;}
+::-webkit-input-placeholder {color: #4a565b;font-weight:500; text-transform: uppercase}
+::-moz-placeholder {color: #4a565b;font-weight:500; text-transform: uppercase}
+:-ms-input-placeholder {color: #4a565b;font-weight:500; text-transform: uppercase}
+.table {margin-bottom: 0}
+.zoom {display: block;overflow: hidden;}  .zoom:hover img {transform: scale(1.1);-webkit-transform: scale(1.1);}
+.zoom-img {position: relative;}
+.zoom-img:before {content: ''; display: block}
+.zoom-img span {position: absolute; top: 0;bottom: 0;left: 0;right: 0; z-index: 2}
+.zoom-img span img {object-fit: cover;height: 100%;width: 100%}
+.mg-10 {margin: 10px 0}
+.mgt-10 {margin-top: 10px}
+.mgb-10 {margin-bottom: 10px}
+.mg-20 {margin: 20px 0}
+.mgt-20 {margin-top: 20px}
+.mgb-20 {margin-bottom: 20px}
+.mg-30 {margin: 30px 0}
+.mgt-30 {margin-top: 30px}
+.mgb-30 {margin-bottom: 30px}
+.mg-60 {margin: 60px 0}
+.mgt-60 {margin-top: 60px}
+.mgb-60 {margin-bottom: 60px}
+.mg-90 {margin: 90px 0}
+.pdt-10 {padding-top: 90px}
+.pdb-10 {padding-bottom: 90px}
+.pd-10 {padding: 10px 0}
+.pdt-10 {padding-top: 10px}
+.pdb-10 {padding-bottom: 10px}
+.pd-20 {padding: 20px 0}
+.pdt-20 {padding-top: 20px}
+.pdb-20 {padding-bottom: 20px}
+.pd-30 {padding: 30px 0}
+.pdt-30 {padding-top: 30px}
+.pdb-30 {padding-bottom: 30px}
+.pd-60 {padding: 60px 0}
+.pdt-60 {padding-top: 60px}
+.pdb-60 {padding-bottom: 60px}
+.pd-90 {padding: 90px 0}
+.pdt-10 {padding-top: 90px}
+.pdb-10 {padding-bottom: 90px}
+.height-100{height: 100%;}
+.desc {line-height: 1.5}
+.font-size-15 {font-size: 15px}
+.font-size-16 {font-size: 16px}
+.font-size-17 {font-size: 17px}
+.font-size-18 {font-size: 18px}
+.font-size-20 {font-size: 20px}
+.font-size-22 {font-size: 22px}
+.font-size-24 {font-size: 24px}
+.font-size-26 {font-size: 26px}
+.font-size-30 {font-size: 30px}
+.font-size-32 {font-size: 32px}
+.font-size-36 {font-size: 36px}
+.font-size-54 {font-size: 54px}
+.font-500 {font-weight: 500}
+.font-600 {font-weight: 600}
+.text-titling {font-family: 'SVN-Felix Titling';}
+.text-c6 { color: #c69c5b;}
+.text-2e { color: #2e3538;}
